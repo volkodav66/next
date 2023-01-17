@@ -5,11 +5,12 @@ main()
 	int mas1[7];
 	for(int i=0;i<7;i++)
 	{
-	scanf("%i",&mas1[i]);
+		scanf("%i",&mas1[i]);
 	}
+	
 	for(int i=0;i<7;i++)
 	{
-	printf("%4i",mas1[i]);
+		printf("%4i",mas1[i]);
 	}
 	
 	int n;
@@ -19,10 +20,11 @@ main()
 	
 	for(int i=0;i<n;i++)
 	{
-	scanf("%i",&mas2[i]);
+		scanf("%i",&mas2[i]);
 	}
+	
 	for(int i=0;i<n;i++)
 	{
-	printf("%4i",mas2[i]);
+		printf("%4i",mas2[i]);
 	}
 }
