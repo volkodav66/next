@@ -25,16 +25,17 @@ main()
 	printf("Last element of the line %c \n", str_2[q-1]);
 	srand (time(NULL)); 
 	int r_1=0,r_2=0;
+	
 	while(r_1==r_2)
 	{
 		if(q=2)
 		{
-		r_1=0;r_2=1;
+			r_1=0;r_2=1;
 		}
 		else
 		{
-		r_1=rand()%(q-1);
-		r_2=rand()%(q-1);
+			r_1=rand()%(q-1);
+			r_2=rand()%(q-1);
 		}
 	}
 	char buf=str_2[r_1];
@@ -53,6 +54,7 @@ main()
 	int i;
 	printf("what element to remove? \n");
 	scanf("%i", &i);
+	
 	for (int j=i-1;j<strlen(str_3);j++)
 	{
 		str_3[j]=str_3[j+1];
