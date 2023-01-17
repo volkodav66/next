@@ -40,29 +40,24 @@ main()
 	
 	printf("\n\n\n\n");
 	bool fl=true;
-	int ch=0;
-		for(int r=0;r<m;r++)
+	while(fl)
+	{
+		fl=false;
+		for(int i=0;i<n;i++)
 		{
-			while(fl)
+			for(int j=0;j<m-1;j++)
 			{
-				fl=false;
-				for(int i=0;i<n;i++)
+				if(mas[i][j]>mas[i][j+1])
 				{
-					for(int j=0;j<m-1;j++)
-					{
-						if(mas[i][j]>mas[i][j+1])
-						{
-							int q=mas[i][j];
-							mas[i][j]=mas[i][j+1];
-							mas[i][j+1]=q;
-							fl=true;
-						}
-					}
+					int q=mas[i][j];
+					mas[i][j]=mas[i][j+1];
+					mas[i][j+1]=q;
+					fl=true;
 				}
-				ch++;
 			}
 		}
-		
+	}
+	
 	for(int i=0;i<n;i++)
 	{
 		for(int j=0;j<m;j++)
@@ -71,8 +66,7 @@ main()
 		}
 		printf("\n\n");
 	}
-	printf("\n%i", ch);
-	
+
 		/*task number 2 */
 	printf("\n\n\n\n");
 	for(int i=0;i<n;i++)
