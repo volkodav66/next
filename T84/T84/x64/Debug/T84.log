@@ -1,0 +1,19 @@
+﻿  T84.cpp
+C:\Users\User\source\repos\T84\T84\T84.cpp(67,10): error C2280: "Ellipse::Ellipse(void)": предпринята попытка ссылки на удаленную функцию
+C:\Users\User\source\repos\T84\T84\T84.cpp(36,1): message : в этом месте создано компилятором: "Ellipse::Ellipse"
+C:\Users\User\source\repos\T84\T84\T84.cpp(36,1): message : "Ellipse::Ellipse(void)": функция неявно удалена, так как в базовый класс "Function" не содержится соответствующий конструктор по умолчанию или разрешение перегрузки было неоднозначным.
+C:\Users\User\source\repos\T84\T84\T84.cpp(6,7): message : см. объявление "Function"
+C:\Users\User\source\repos\T84\T84\T84.cpp(68,12): error C2280: "Hiperbola::Hiperbola(void)": предпринята попытка ссылки на удаленную функцию
+C:\Users\User\source\repos\T84\T84\T84.cpp(47,1): message : в этом месте создано компилятором: "Hiperbola::Hiperbola"
+C:\Users\User\source\repos\T84\T84\T84.cpp(47,1): message : "Hiperbola::Hiperbola(void)": функция неявно удалена, так как в базовый класс "Function" не содержится соответствующий конструктор по умолчанию или разрешение перегрузки было неоднозначным.
+C:\Users\User\source\repos\T84\T84\T84.cpp(6,7): message : см. объявление "Function"
+C:\Users\User\source\repos\T84\T84\T84.cpp(69,11): error C2280: "Parabola::Parabola(void)": предпринята попытка ссылки на удаленную функцию
+C:\Users\User\source\repos\T84\T84\T84.cpp(57,1): message : в этом месте создано компилятором: "Parabola::Parabola"
+C:\Users\User\source\repos\T84\T84\T84.cpp(57,1): message : "Parabola::Parabola(void)": функция неявно удалена, так как в базовый класс "Function" не содержится соответствующий конструктор по умолчанию или разрешение перегрузки было неоднозначным.
+C:\Users\User\source\repos\T84\T84\T84.cpp(6,7): message : см. объявление "Function"
+C:\Users\User\source\repos\T84\T84\T84.cpp(71,15): error C2065: ellipse: необъявленный идентификатор
+C:\Users\User\source\repos\T84\T84\T84.cpp(72,15): error C2065: hiperbola: необъявленный идентификатор
+C:\Users\User\source\repos\T84\T84\T84.cpp(73,15): error C2065: parabola: необъявленный идентификатор
+C:\Users\User\source\repos\T84\T84\T84.cpp(75,2): error C2065: ellipse: необъявленный идентификатор
+C:\Users\User\source\repos\T84\T84\T84.cpp(76,2): error C2065: hiperbola: необъявленный идентификатор
+C:\Users\User\source\repos\T84\T84\T84.cpp(77,2): error C2065: parabola: необъявленный идентификатор
