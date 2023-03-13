@@ -1,0 +1,3 @@
+﻿  T823.cpp
+C:\Users\User\source\repos\T823\T823\T823.cpp(148,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  T823.vcxproj -> C:\Users\User\source\repos\T823\x64\Debug\T823.exe
