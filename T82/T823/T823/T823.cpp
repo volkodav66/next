@@ -4,7 +4,7 @@
 using namespace std;
 
 
-class MathException : public exception 
+class MathException : public exception
 {
 public:
 	MathException(const char* msg) :exception(msg)
@@ -12,7 +12,7 @@ public:
 	}
 };
 
-int foo(char mathem[]) 
+int foo(char mathem[])
 {
 
 	int n, s, m;
@@ -21,7 +21,7 @@ int foo(char mathem[])
 	s = mathem[1];
 	m = mathem[2];
 
-	switch (n) 
+	switch (n)
 	{
 	case '0':
 		n = 0;
@@ -58,7 +58,7 @@ int foo(char mathem[])
 		throw MathException("You entered an invalid first number");
 		break;
 	}
-	switch (s) 
+	switch (s)
 	{
 	case '+':
 		s = 1;
@@ -77,7 +77,7 @@ int foo(char mathem[])
 		throw MathException("You entered an invalid math operator");
 		break;
 	}
-	switch (m) 
+	switch (m)
 	{
 	case '0':
 		m = 0;
@@ -117,16 +117,16 @@ int foo(char mathem[])
 
 	int z;
 
-	if (s == 1) 
+	if (s == 1)
 	{
 		z = n + m;
 	}
-	if (s == 2) 
+	if (s == 2)
 	{
 		z = n - m;
 	}
 	if (s == 3) {
-		if (m == 0) 
+		if (m == 0)
 		{
 			throw MathException("Can't divide by zero");
 		}
@@ -144,7 +144,7 @@ int foo(char mathem[])
 }
 
 
-void main() 
+void main()
 {
 
 	char math[10];
@@ -152,11 +152,11 @@ void main()
 	cout << "Enter math operation" << endl;
 	gets_s(math);
 
-	try 
+	try
 	{
 		foo(math);
 	}
-	catch (MathException& ex) 
+	catch (MathException& ex)
 	{
 		cout << ex.what() << endl;
 	}
